@@ -1,0 +1,22 @@
+# Build output
+bin/
+obj/
+out/
+*.user
+
+# Azure Functions runtime
+local.settings.json
+.azurefunctions/
+
+# IDE
+.vs/
+.vscode/
+.idea/
+*.swp
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Misc
+*.log

@@ -1,0 +1,20 @@
+{
+    "IsEncrypted": false,
+    "Values": {
+        "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+        "FUNCTIONS_WORKER_RUNTIME": "dotnet-isolated",
+        "ConnectionStrings__PanelBridge": "Server=(localdb)\\MSSQLLocalDB;Database=PanelBridge;Trusted_Connection=True;TrustServerCertificate=True",
+        "SortRefer__BaseUrl": "https://dev.sortrefer.co.uk",
+        "SortRefer__Username": "<your supplier portal username>",
+        "SortRefer__Password": "<your supplier portal password>",
+        "Econ__InstructionManagementUrl": "https://<panel-host>/v1_00/InstructionManagementService.svc",
+        "Econ__Username": "<econ supplier username (SOAP supplier)>",
+        "Econ__Password": "<econ supplier password>",
+        "PanelBridge__ApiKey": "<random 32+ char string, callers send in X-API-Key header>",
+        "PanelBridge__SwaggerUsername": "<basic-auth username for /api/swagger/ui>",
+        "PanelBridge__SwaggerPassword": "<password for the Swagger sign-in form>",
+        "PanelBridge__SwaggerCookieKey": "<random 32+ char string, signs the session cookie>",
+        "PanelBridge__Entra__TenantId": "<Azure AD tenant GUID>",
+        "PanelBridge__Entra__ClientId": "<Entra ID app registration client ID, used in the OpenAPI scope name>"
+    }
+}
